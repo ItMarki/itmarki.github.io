@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: 'MonospaceTypewriter';
-    src: url('MonospaceTypewriter.ttf') format('truetype');
+    src: url('MonospaceTypewriter.woff') format('truetype');
 }
 
 h1 {
