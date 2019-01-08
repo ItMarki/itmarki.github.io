@@ -3,7 +3,7 @@ body {
 }
 
 @font-face {
-    font-family: 'YourFontName';
+    font-family: 'MonospaceTypewriter';
     src: url('webfont.ttf') format('truetype');
 }
 
