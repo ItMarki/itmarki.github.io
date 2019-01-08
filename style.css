@@ -1,15 +1,24 @@
 body {
   background-color: DarkGreen;
 }
+
+@font-face {
+    font-family: 'YourFontName';
+    src: url('webfont.ttf') format('truetype');
+}
+
 h1 {
   color: Honeydew;
 }
+
 h2 {
   color: Honeydew;
 }
+
 p {
   color: Honeydew;
 }
+
 a:link {
   color: Honeydew; 
   background-color: transparent; 
