@@ -2,11 +2,6 @@ body {
   background-color: DarkGreen;
 }
 
-@font-face {
-    font-family: 'MonospaceTypewriter';
-    src: url('MonospaceTypewriter-webfont.woff');
-}
-
 h1 {
   color: Honeydew;
 }
