@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ItMarki</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+  body {background-color: darkgreen;}
+  h1   {color: honeydew;}
+  h2   {color: honeydew;}
+  p   {color: red;}
+  a:link {color: honeydew;}
+  a:visited {color: mintcream;}
+  a:active {color: azure;}
+  </style>
+</head>
+<body>
+<center><div style='background-color:green; width:100%'><h1 style="font-size:200%;">這是ItMarki的頁面。</h1></div></center>
+<center><h2 style="font-size:200%;">我稍微掌握了技巧。</h2>
+<p><a href="https://itmarki.github.io/exponent-madness/">指數瘋狂</a></p>
+<p><a href="https://itmarki.github.io/translation.html">翻譯作品</a></p>
+</body>
+</html>
