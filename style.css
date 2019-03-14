@@ -1,31 +1,25 @@
 body {
   background-color: DarkGreen;
 }
-
 h1 {
   color: Honeydew;
 }
-
 h2 {
   color: Honeydew;
 }
-
 p {
   color: Honeydew;
 }
-
 a:link {
   color: Honeydew; 
   background-color: transparent; 
   text-decoration: none;
 }
-
 a:visited {
   color: MintCream;
   background-color: transparent;
   text-decoration: none;
 }
-
 a:active {
   color: Azure;
   background-color: transparent;
