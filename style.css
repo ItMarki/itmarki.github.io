@@ -1,27 +1,28 @@
 body {
-  background-color: DarkGreen;
+  background-color: #023802;
+  ont-family:'Roboto Mono';
 }
 h1 {
-  color: Honeydew;
+  color: #97FA97;
 }
 h2 {
-  color: Honeydew;
+  color: #97FA97;
 }
 p {
-  color: Honeydew;
+  color: red;
 }
 a:link {
-  color: Honeydew; 
+  color: #97FA97; 
   background-color: transparent; 
   text-decoration: none;
 }
 a:visited {
-  color: MintCream;
+  color: mintcream;
   background-color: transparent;
   text-decoration: none;
 }
 a:active {
-  color: Azure;
+  color: azure;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
