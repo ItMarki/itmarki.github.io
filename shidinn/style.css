@@ -1,9 +1,11 @@
 @charset "utf-8";
 @import url("MonospaceTypewriter");
+@import url("FiraSans-Regular/stylesheet.css");
+@import url("Fira.Xdi8/stylesheet.css");
 @import url("GenYoGothic_R/stylesheet.css");
 
 body {
-	font-family: MonospaceTypewriter, "GenYoGothic R";
+	font-family: "MonospaceTypewriter", "GenYoGothic R", 'FiraSans Regular';
 	background-color: #F0F8FF;
 }
 
@@ -13,9 +15,30 @@ h {
 	text-shadow: rgba(64,255,255,0.3) -3.5px 0, rgba(64,255,255,0.2) -7px 0, rgba(64,255,255,0.1) -10px 0;
 }
 
-p {
+h1 {
+	text-align: center;
 	color: #4040b0;
-	font-size: 30px;
+	font-size: 36px;
+	
+}
+
+p {
+	color: #202080;
+	font-size: 24px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+p1 {
+	color: #4040c0;
+}
+
+p2 {
+	color: #202080;
+}
+
+.xdi8 {
+	font-family: 'FiraXdi8 Regular', 'FiraSans Regular';
 }
 
 div.center{
@@ -53,4 +76,14 @@ button:hover{
     background: #000040;
 	border: 2px solid #000020;
 	cursor: pointer
+}
+
+#consonants {
+	color: #4040c0;
+	font-size: 24px;
+}
+
+#vowel {
+	color: #4040c0;
+	font-size: 24px;
 }
