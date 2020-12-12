@@ -1,28 +1,56 @@
+@charset "utf-8";
+@import url("MonospaceTypewriter");
+@import url("GenYoGothic_R/stylesheet.css");
+
 body {
-  background-color: #023802;
-  ont-family:'Roboto Mono';
+	font-family: MonospaceTypewriter, "GenYoGothic R";
+	background-color: #f0fff8;
 }
-h1 {
-  color: #97FA97;
+
+h {
+	color: #00b000;
+	font-size: 48px;
+	text-shadow: rgba(0,192,0,0.3) -3.5px 0, rgba(0,192,0,0.2) -7px 0, rgba(0,192,0,0.1) -10px 0;
 }
-h2 {
-  color: #97FA97;
-}
+
 p {
-  color: red;
+	color: #40b040;
+	font-size: 30px;
 }
-a:link {
-  color: #97FA97; 
-  background-color: transparent; 
-  text-decoration: none;
+
+div.center{
+	text-align: center;
 }
-a:visited {
-  color: mintcream;
-  background-color: transparent;
-  text-decoration: none;
+
+div.turn{
+	transform: rotate(20deg);
+	
 }
-a:active {
-  color: azure;
-  background-color: transparent;
-  text-decoration: none;
+
+a:link{
+	color: #00c000;
+	text-decoration: none;
+	
+}
+
+a:visited{
+	color: #00c000;
+	text-decoration: none;
+}
+
+button {
+	font-family: MonospaceTypewriter, "GenYoGothic R";
+	font-size: 30px;
+	display: inline-block;
+	background: #d0ffd0;
+	font-weight: bold;
+    border: 2px solid #a0ffa0;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+
+button:hover{
+    background: #004000;
+	border: 2px solid #002000;
+	cursor: pointer
 }
