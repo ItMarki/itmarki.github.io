@@ -2,6 +2,7 @@
 @import url("MonospaceTypewriter");
 @import url("FiraSans-Regular/stylesheet.css");
 @import url("Fira.Xdi8/stylesheet.css");
+@import url("Noto Xdi8/stylesheet.css");
 @import url("GenYoGothic_R/stylesheet.css");
 
 body {
@@ -39,6 +40,11 @@ p2 {
 
 .xdi8 {
 	font-family: 'FiraXdi8 Regular', 'FiraSans Regular';
+}
+
+.ortho {
+	font-size: 96px;
+	font-family: 'Noto Shidinn';
 }
 
 div.center{
@@ -79,11 +85,19 @@ button:hover{
 }
 
 #consonants {
+	text-align: center;
 	color: #4040c0;
 	font-size: 24px;
 }
 
 #vowel {
+	text-align: center;
 	color: #4040c0;
+	font-size: 24px;
+}
+
+#ortho {
+	text-align: center;
+	color: #202080;
 	font-size: 24px;
 }
