@@ -61,7 +61,7 @@ button {
 	transition-duration: 0.2s
 }
 .gray :link, .gray :visited  {
-	color: #181818;
+	color: #808080;
 }
 .gray:hover{
     background: #252525;
