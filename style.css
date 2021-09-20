@@ -8,11 +8,23 @@ body {
 	background-color: #f0fff8;	
 }
 
+body.project {
+	font-family: "Inter", sans-serif;
+	background-color: #fff0f0;	
+}
+
 h {
 	text-align: center;
 	color: #00b000;
 	font-size: 48px;
 	text-shadow: rgba(0,192,0,0.2) -3px 0, rgba(0,192,0,0.15) -6px 0, rgba(0,192,0,0.1) -9px 0;
+}
+
+h.project {
+	text-align: center;
+	color: #b00000;
+	font-size: 48px;
+	text-shadow: rgba(192,0,0,0.2) -3px 0, rgba(192,0,0,0.15) -6px 0, rgba(192,0,0,0.1) -9px 0;
 }
 
 h1 {
@@ -22,8 +34,22 @@ h1 {
 	
 }
 
+h1.project {
+	text-align: center;
+	color: #b04040;
+	font-size: 36px;
+	
+}
+
 p {
 	color: #208020;
+	font-size: 24px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+p.project {
+	color: #802020;
 	font-size: 24px;
 	margin-right: 10%;
 	margin-left: 10%;
@@ -51,6 +77,21 @@ button {
 .green:hover{
     background: #004000;
 	border: 2px solid #002000;
+	cursor: pointer
+}
+
+.red {
+	background: #ffd0d0;
+    border: 2px solid #ffa0a0;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.red :link, .red :visited {
+	color: #b00000;
+}
+.red:hover{
+    background: #400000;
+	border: 2px solid #200000;
 	cursor: pointer
 }
 
