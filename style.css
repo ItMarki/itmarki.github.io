@@ -5,14 +5,14 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
 	font-family: "Inter", sans-serif;
-	background-color: #f0fff8;
+	background-color: #f0fff8;	
 }
 
 h {
 	text-align: center;
 	color: #00b000;
 	font-size: 48px;
-	text-shadow: rgba(0,192,0,0.3) -3.5px 0, rgba(0,192,0,0.2) -7px 0, rgba(0,192,0,0.1) -10px 0;
+	text-shadow: rgba(0,192,0,0.2) -3px 0, rgba(0,192,0,0.15) -6px 0, rgba(0,192,0,0.1) -9px 0;
 }
 
 h1 {
@@ -29,30 +29,46 @@ p {
 	margin-left: 10%;
 }
 
-a:link{
-	color: #00c000;
+a {
 	text-decoration: none;
 	
-}
-
-a:visited{
-	color: #00c000;
-	text-decoration: none;
 }
 
 button {
 	font-family: "Inter", sans-serif;
 	font-size: 30px;
 	display: inline-block;
+}
+
+.green {
 	background: #d0ffd0;
-	font-weight: bold;
     border: 2px solid #a0ffa0;
+	color: #00b000;
 	border-radius: 4px;
 	transition-duration: 0.2s
 }
-
-button:hover{
+.green:link {
+	color: #00c000;
+}
+.green:hover{
     background: #004000;
 	border: 2px solid #002000;
+	cursor: pointer
+}
+
+.gray {
+	background: #fcfcfc;
+    border: 2px solid #d8d8d8;
+	color: #808080;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.gray:link {
+	color: #181818;
+	text-decoration: none;
+}
+.gray:hover{
+    background: #252525;
+	border: 2px solid #101010;
 	cursor: pointer
 }
