@@ -45,7 +45,7 @@ button {
 	border-radius: 4px;
 	transition-duration: 0.2s
 }
-.green :link {
+.green :link, .green :visited {
 	color: #00b000;
 }
 .green:hover{
@@ -60,7 +60,7 @@ button {
 	border-radius: 4px;
 	transition-duration: 0.2s
 }
-.gray :link  {
+.gray :link, .gray :visited  {
 	color: #181818;
 }
 .gray:hover{
