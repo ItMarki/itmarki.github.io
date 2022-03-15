@@ -65,6 +65,12 @@ button {
 	display: inline-block;
 }
 
+buttonsmall {
+	font-family: "Inter", sans-serif;
+	font-size: 24px;
+	display: inline-block;
+}
+
 .green {
 	background: #d0ffd0;
     border: 2px solid #a0ffa0;
