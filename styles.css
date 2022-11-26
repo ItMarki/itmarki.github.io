@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import url('https://rsms.me/inter/inter.css');
+
+@font-face {
+	font-family: 'Smiley Sans';
+	src: url('fonts/SmileySans-Oblique.ttf');
+}
+
+body {
+	font-family: "Inter", "Noto Sans SC", sans-serif;
+	background: linear-gradient(#f0fff8, #e0ffe8);	
+}
+
+h {
+	font-family: "Smiley Sans", "Noto Sans SC", sans-serif;
+	color: #00b000;
+	font-size: 48px;
+	letter-spacing: 0.4rem;
+	text-shadow: rgba(0,192,0,0.2) -3px 0, rgba(0,192,0,0.15) -6px 0, rgba(0,192,0,0.1) -9px 0;
+}
+
+h1 {
+	font-family: "Smiley Sans", "Noto Sans SC", sans-serif;
+	text-align: center;
+	color: #208020;
+	font-size: 30px;
+	text-decoration: underline;
+	text-underline-offset: 4px;
+}
+
+p, ul {
+	color: #004000;
+	font-size: 20px;
+}
+
+span.transparent {
+	color: rgba(0,0,0,0);
+	letter-spacing: -10px;
+}
+
+a {
+	color: #008000;
+}
+
+.row {
+	  display: flex;
+}
+
+.column {
+	  flex: 50%;
+}
+
+hr {
+	height: 1.5px;
+	color: green;
+	background-color: green;
+}
+
+.vl {
+	  border-left: 3px solid green;
+	  height: auto;
+}
